@@ -1,0 +1,1748 @@
+{
+  "_version": "1.2",
+  "project": {
+    "_id": "63c1ec0c676f400007ea8f9f",
+    "name": "Nyan Cat",
+    "teamID": "9Ynzpo8kbK",
+    "devVersion": "63c1ec0c9d1b43fc50ddb1ed",
+    "platform": "alexa",
+    "type": "voice",
+    "platformData": {
+      "products": [],
+      "hasChannelIntents": true
+    },
+    "members": [],
+    "image": "https://cm4-production-assets.s3.amazonaws.com/1673654745860-nyan-cat.png",
+    "linkType": "STRAIGHT",
+    "customThemes": [
+      {
+        "name": "",
+        "palette": {
+          "50": "#e8eff6",
+          "100": "#d8e4f1",
+          "200": "#c4d6ea",
+          "300": "#afc9e4",
+          "400": "#8db5d9",
+          "500": "#76a0c4",
+          "600": "#6388a7",
+          "700": "#4e6b84",
+          "800": "#384e61",
+          "900": "#21303d"
+        },
+        "standardColor": "#76a0c4"
+      }
+    ],
+    "_version": 1.2,
+    "creatorID": 51593,
+    "updatedAt": "2023-01-14T16:06:38.806Z",
+    "updatedBy": 109292,
+    "apiPrivacy": "private",
+    "aiAssistSettings": {
+      "freestyle": true,
+      "generativeTasks": true
+    },
+    "createdAt": "2023-01-13T23:41:00.000Z"
+  },
+  "version": {
+    "_id": "63c1ec0c9d1b43fc50ddb1ed",
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale"
+    ],
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "AMAZON.YesIntent",
+          "name": "AMAZON.YesIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.NoIntent",
+          "name": "AMAZON.NoIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.HelpIntent",
+          "name": "AMAZON.HelpIntent",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "I want to cancel this",
+              "slots": []
+            },
+            {
+              "text": "Can I cancel?",
+              "slots": []
+            },
+            {
+              "text": "Stop now",
+              "slots": []
+            },
+            {
+              "text": "Go back",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "AMAZON.StopIntent",
+          "name": "AMAZON.StopIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.CancelIntent",
+          "name": "AMAZON.CancelIntent",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Nyan Cat`",
+              "slots": []
+            },
+            {
+              "text": "Cancel it",
+              "slots": []
+            }
+          ],
+          "noteID": "clcw59rr900fq357255phvym2"
+        },
+        {
+          "key": "scd83pje",
+          "name": "time",
+          "inputs": [],
+          "slots": []
+        },
+        {
+          "key": "mjbp32xx",
+          "name": "nyan_cat",
+          "inputs": [],
+          "slots": []
+        },
+        {
+          "key": "sqdo32q6",
+          "name": "play_nyan_cat",
+          "inputs": [],
+          "slots": []
+        }
+      ],
+      "settings": {
+        "events": null,
+        "customInterface": false,
+        "session": {
+          "type": "restart"
+        },
+        "repeat": "ALL",
+        "accountLinking": null,
+        "error": null,
+        "defaultVoice": "Alexa"
+      },
+      "publishing": {
+        "summary": "",
+        "invocations": [
+          "open Nyan Cat",
+          "start Nyan Cat",
+          "launch Nyan Cat"
+        ],
+        "smallIcon": "",
+        "largeIcon": "",
+        "hasAds": false,
+        "personal": false,
+        "forExport": true,
+        "invocationName": "Nyan Cat",
+        "hasPurchase": false,
+        "forChildren": false,
+        "description": "",
+        "instructions": "",
+        "privacyPolicy": "",
+        "termsAndConditions": "",
+        "keywords": "",
+        "category": "",
+        "locales": [
+          "en-US",
+          "en-GB",
+          "en-AU",
+          "en-CA",
+          "en-IN",
+          "fr-CA",
+          "es-US",
+          "fr-FR",
+          "de-DE",
+          "it-IT",
+          "ja-JP",
+          "es-ES",
+          "es-MX",
+          "pt-BR",
+          "hi-IN"
+        ],
+        "updatesDescription": null
+      },
+      "status": {
+        "stage": "DEV"
+      }
+    },
+    "_version": 3.94,
+    "name": "Initial Version",
+    "projectID": "63c1ec0c676f400007ea8f9f",
+    "manualSave": false,
+    "autoSaveFromRestore": false,
+    "topics": [
+      {
+        "sourceID": "63c1ec0c9d1b43fc50ddb1ee",
+        "type": "DIAGRAM"
+      }
+    ],
+    "components": [
+      {
+        "sourceID": "63c1ec0c9d1b43fc50ddb1ef",
+        "type": "DIAGRAM"
+      },
+      {
+        "sourceID": "63c1ec0c9d1b43fc50ddb1f0",
+        "type": "DIAGRAM"
+      }
+    ],
+    "rootDiagramID": "63c1ec0c9d1b43fc50ddb1ee",
+    "creatorID": 51593,
+    "domains": [
+      {
+        "id": "clcv5xt2z04bl07te66g04fwd",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "63c1ec0c9d1b43fc50ddb1ee"
+        ],
+        "rootDiagramID": "63c1ec0c9d1b43fc50ddb1ee",
+        "updatedAt": "2023-01-14T16:07:08.806Z",
+        "updatedBy": 109292
+      }
+    ],
+    "templateDiagramID": "63c1ec0cc3202ea16fa1a059",
+    "prototype": {
+      "type": "voice",
+      "data": {
+        "name": "Nyan Cat",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "AMAZON.YesIntent",
+            "name": "AMAZON.YesIntent",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "AMAZON.Yes"
+              }
+            ]
+          },
+          {
+            "key": "AMAZON.NoIntent",
+            "name": "AMAZON.NoIntent",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "AMAZON.No"
+              }
+            ]
+          },
+          {
+            "key": "AMAZON.HelpIntent",
+            "name": "AMAZON.HelpIntent",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "I want to cancel this",
+                "slots": []
+              },
+              {
+                "text": "Can I cancel?",
+                "slots": []
+              },
+              {
+                "text": "Stop now",
+                "slots": []
+              },
+              {
+                "text": "Go back",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "AMAZON.StopIntent",
+            "name": "AMAZON.StopIntent",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "AMAZON.Stop"
+              }
+            ]
+          },
+          {
+            "key": "AMAZON.CancelIntent",
+            "name": "AMAZON.CancelIntent",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Nyan Cat`",
+                "slots": []
+              },
+              {
+                "text": "Cancel it",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "scd83pje",
+            "name": "time",
+            "inputs": [
+              {
+                "text": "time"
+              }
+            ],
+            "slots": []
+          },
+          {
+            "key": "mjbp32xx",
+            "name": "nyan_cat",
+            "inputs": [
+              {
+                "text": "nyan_cat"
+              }
+            ],
+            "slots": []
+          },
+          {
+            "key": "sqdo32q6",
+            "name": "play_nyan_cat",
+            "inputs": [
+              {
+                "text": "play_nyan_cat"
+              }
+            ],
+            "slots": []
+          }
+        ],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "programID": "63c1ec0c9d1b43fc50ddb1ee",
+            "storage": {},
+            "variables": {}
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "slotsMap": {},
+        "extraSlots": [],
+        "extraIntents": [],
+        "usedIntentsSet": [
+          "AMAZON.HelpIntent",
+          "AMAZON.StopIntent",
+          "AMAZON.CancelIntent",
+          "scd83pje",
+          "AMAZON.YesIntent",
+          "AMAZON.NoIntent"
+        ],
+        "platform": "alexa",
+        "goToIntentsSet": [],
+        "products": {},
+        "interfaces": [],
+        "permissions": [],
+        "usedCustomBlocks": []
+      },
+      "settings": {
+        "brandColor": "#3D81E2"
+      },
+      "platform": "alexa"
+    },
+    "notes": {
+      "clcw59rr900fq357255phvym2": {
+        "id": "clcw59rr900fq357255phvym2",
+        "type": "INTENT",
+        "text": "",
+        "meta": {
+          "intentID": "AMAZON.CancelIntent"
+        },
+        "mentions": []
+      }
+    }
+  },
+  "diagrams": {
+    "63c1ec0c9d1b43fc50ddb1ee": {
+      "_id": "63c1ec0c9d1b43fc50ddb1ee",
+      "name": "ROOT",
+      "offsetX": 270.44134511070524,
+      "offsetY": 104,
+      "zoom": 100,
+      "variables": [],
+      "versionID": "63c1ec0c9d1b43fc50ddb1ed",
+      "creatorID": 51593,
+      "modified": 1673653260,
+      "intentStepIDs": [],
+      "type": "TOPIC",
+      "nodes": {
+        "5f9f562f11b31520c2a2a6de": {
+          "nodeID": "5f9f562f11b31520c2a2a6de",
+          "type": "start",
+          "coords": [
+            778.1983186116184,
+            263.75
+          ],
+          "data": {
+            "name": "Start",
+            "color": "#dc8879",
+            "steps": [
+              "5f9f562f11b31520c2a2a6df",
+              "5f9f562f11b31520c2a2a6e0",
+              "5fde6fb05bc1c56319fad3a0"
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63c1ec6a94220769136b94f4",
+                  "id": "5fde6fac5bc1c56319fad39b",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          842.8469563123117,
+                          285.74999757924655
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          925.0295734998117,
+                          137.2698034874497
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      }
+                    ],
+                    "type": "CURVED"
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          }
+        },
+        "5f9f562f11b31520c2a2a6df": {
+          "nodeID": "5f9f562f11b31520c2a2a6df",
+          "type": "command",
+          "data": {
+            "name": "Help",
+            "intent": "AMAZON.HelpIntent",
+            "diagramID": "63c1ec0c9d1b43fc50ddb1ef",
+            "mappings": [],
+            "next": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          }
+        },
+        "5f9f562f11b31520c2a2a6e0": {
+          "nodeID": "5f9f562f11b31520c2a2a6e0",
+          "type": "command",
+          "data": {
+            "name": "Stop",
+            "intent": "AMAZON.StopIntent",
+            "diagramID": "63c1ec0c9d1b43fc50ddb1f0",
+            "mappings": [],
+            "next": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          }
+        },
+        "5fde6fb05bc1c56319fad3a0": {
+          "nodeID": "5fde6fb05bc1c56319fad3a0",
+          "type": "command",
+          "data": {
+            "name": "Cancel",
+            "intent": "AMAZON.CancelIntent",
+            "diagramID": "63c1ec0c9d1b43fc50ddb1f0",
+            "mappings": [],
+            "next": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          }
+        },
+        "6306920e0844f2861f1414da": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Heres the Nyan Cat song, if you want to reset and see your time than say time."
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6306920e0844f2861f1414db",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1141.0296071818675,
+                          256.5198253852434
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1344.2396520427073,
+                          256.5198253852434
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1344.2396520427073,
+                          78.52693979564383
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1547.4496969035472,
+                          78.52693979564383
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6306920e0844f2861f1414da",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "63c1ec6a94220769136b94f2": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1ec6a94220769136b94f3",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1256.0295308879222,
+                          305.2698253852434
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1309.4063924601878,
+                          305.2698253852434
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1309.4063924601878,
+                          503.3487171393938
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1362.7832540324534,
+                          503.3487171393938
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1ec6a94220769136b94f2",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "63c1ec6a94220769136b94f4": {
+          "type": "block",
+          "data": {
+            "name": "Nyan Cat song",
+            "steps": [
+              "6306920e0844f2861f1414da",
+              "63c1ef9e94220769136b9644",
+              "63c1ef9d94220769136b9626",
+              "63c1efa694220769136b9664",
+              "63c1ef9d94220769136b961c",
+              "63c1efa794220769136b966e",
+              "63c1efa794220769136b9678",
+              "63c1efa794220769136b968c",
+              "63c1efa794220769136b9682",
+              "63c1efa894220769136b96b4",
+              "63c1efa794220769136b96a0",
+              "63c1efa794220769136b9696",
+              "63c1efa894220769136b96aa",
+              "63c1ef9e94220769136b9630",
+              "63c1ef9e94220769136b963a",
+              "63c1ef9e94220769136b964e",
+              "63c1ec6a94220769136b94f2",
+              "63c1f0b394220769136b9777",
+              "63c1ecc794220769136b94fc"
+            ],
+            "color": "#56b365"
+          },
+          "nodeID": "63c1ec6a94220769136b94f4",
+          "coords": [
+            1090.0295003703443,
+            110.26978342357353
+          ]
+        },
+        "63c1ecc794220769136b94fc": {
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "choices": [
+              {
+                "intent": "scd83pje",
+                "mappings": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "63c1ecc794220769136b94fe"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "63c1ed1f94220769136b951f",
+                  "id": "63c1ecc794220769136b94fd",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1257.2796803113351,
+                          375.51973863759616
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1627.4395847913156,
+                          375.51973863759616
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1627.4395847913156,
+                          297.21015688100437
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1997.5994892712959,
+                          297.21015688100437
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "63c1ecc794220769136b94fc",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "63c1ed1f94220769136b951f": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "your time was drumroll please... 24 hours later.......... So bassicaly your time was so long that the orginal developers got bored and had to take a nap so they hired new ones but the new ones had no idea what was going on."
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1ed1f94220769136b9520"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1ed1f94220769136b951f"
+        },
+        "63c1ed1f94220769136b9521": {
+          "type": "block",
+          "data": {
+            "name": "New Block 4",
+            "steps": [
+              "63c1ed1f94220769136b951f",
+              "63c1edd494220769136b953d"
+            ],
+            "color": "#d58495"
+          },
+          "nodeID": "63c1ed1f94220769136b9521",
+          "coords": [
+            2162.3493672009836,
+            217.71017213979346
+          ]
+        },
+        "63c1edd494220769136b953d": {
+          "type": "ifV2",
+          "data": {
+            "name": "If",
+            "expressions": [
+              {
+                "type": null,
+                "name": "",
+                "value": [
+                  {
+                    "logicInterface": "variable",
+                    "type": "greater_or_equal",
+                    "value": [
+                      {
+                        "type": "variable",
+                        "value": "timestamp"
+                      },
+                      {
+                        "type": "value",
+                        "value": "27"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "noMatch": {
+              "type": "none",
+              "pathName": "No match"
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "63c1edd494220769136b953f"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "63c1ee0c94220769136b956b",
+                  "id": "63c1edd494220769136b953e",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "nodeID": "63c1edd494220769136b953d",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "63c1ee0c94220769136b956a": {
+          "type": "goToNode",
+          "data": {
+            "name": "",
+            "nodeID": "63c1ec6a94220769136b94f4",
+            "diagramID": "63c1ec0c9d1b43fc50ddb1ee",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1ee0c94220769136b956a"
+        },
+        "63c1ee0c94220769136b956b": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "63c1ee0c94220769136b956a"
+            ]
+          },
+          "nodeID": "63c1ee0c94220769136b956b",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "63c1ef9d94220769136b961c": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1ef9d94220769136b961d",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1ef9d94220769136b961c"
+        },
+        "63c1ef9d94220769136b9626": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1ef9d94220769136b9627",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1ef9d94220769136b9626",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "63c1ef9e94220769136b9630": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1ef9e94220769136b9631",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1ef9e94220769136b9630",
+          "coords": [
+            -44.754919980157666,
+            210.8082859076647
+          ]
+        },
+        "63c1ef9e94220769136b963a": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1ef9e94220769136b963b",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1ef9e94220769136b963a"
+        },
+        "63c1ef9e94220769136b9644": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1ef9e94220769136b9645",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1ef9e94220769136b9644",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "63c1ef9e94220769136b964e": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1ef9e94220769136b964f",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1ef9e94220769136b964e"
+        },
+        "63c1efa694220769136b9664": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1efa694220769136b9665",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1efa694220769136b9664"
+        },
+        "63c1efa794220769136b966e": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1efa794220769136b966f",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1efa794220769136b966e"
+        },
+        "63c1efa794220769136b9678": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1efa794220769136b9679",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1efa794220769136b9678"
+        },
+        "63c1efa794220769136b9682": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1efa794220769136b9683",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1efa794220769136b9682"
+        },
+        "63c1efa794220769136b968c": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1efa794220769136b968d",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1efa794220769136b968c"
+        },
+        "63c1efa794220769136b9696": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1efa794220769136b9697",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1efa794220769136b9696"
+        },
+        "63c1efa794220769136b96a0": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1efa794220769136b96a1",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1efa794220769136b96a0"
+        },
+        "63c1efa894220769136b96aa": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1efa894220769136b96ab",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1efa894220769136b96aa"
+        },
+        "63c1efa894220769136b96b4": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1673653414205-original.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1efa894220769136b96b5",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1efa894220769136b96b4"
+        },
+        "63c1f0b394220769136b9777": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "youve reached the end... its about TIME! get it!"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "63c1f0b394220769136b9778"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63c1f0b394220769136b9777"
+        }
+      },
+      "children": [
+        "63c1ec0c9d1b43fc50ddb1ef",
+        "63c1ec0c9d1b43fc50ddb1f0"
+      ],
+      "menuNodeIDs": [
+        "5f9f562f11b31520c2a2a6de"
+      ]
+    },
+    "63c1ec0c9d1b43fc50ddb1f0": {
+      "_id": "63c1ec0c9d1b43fc50ddb1f0",
+      "name": "End session",
+      "offsetX": 224,
+      "offsetY": 59.19999999999999,
+      "zoom": 80,
+      "variables": [],
+      "versionID": "63c1ec0c9d1b43fc50ddb1ed",
+      "creatorID": 51593,
+      "modified": 1673653260,
+      "type": "COMPONENT",
+      "nodes": {
+        "5f9f562f11b31520c2a2a6e7": {
+          "nodeID": "5f9f562f11b31520c2a2a6e7",
+          "type": "start",
+          "coords": [
+            420,
+            176
+          ],
+          "data": {
+            "name": "Start",
+            "color": "#43494E",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "5f9f562f11b31520c2a2a6e9",
+                  "id": "5fde6fe15bc1c56319fad3b2",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          484.63671875,
+                          198
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          562.8027954101562,
+                          198
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          562.8027954101562,
+                          147.9479217529297
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          640.9688720703125,
+                          147.9479217529297
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          }
+        },
+        "5f9f562f11b31520c2a2a6e9": {
+          "nodeID": "5f9f562f11b31520c2a2a6e9",
+          "type": "block",
+          "coords": [
+            805.9688890631405,
+            120.94792332948695
+          ],
+          "data": {
+            "name": "Exit",
+            "color": "red",
+            "steps": [
+              "60b7e6e1d4b17f0ce7bdde9c",
+              "5f9f562f11b31520c2a2a6ea"
+            ]
+          }
+        },
+        "5f9f562f11b31520c2a2a6ea": {
+          "nodeID": "5f9f562f11b31520c2a2a6ea",
+          "type": "exit",
+          "data": {
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          }
+        },
+        "60b7e6e1d4b17f0ce7bdde9c": {
+          "nodeID": "60b7e6e1d4b17f0ce7bdde9c",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Okay, this session is now ending."
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "5f9f562f11b31520c2a2a6ea",
+                  "id": "60b7e6e1d4b17f0ce7bdde9f"
+                }
+              },
+              "dynamic": []
+            }
+          }
+        }
+      },
+      "children": []
+    },
+    "63c1ec0c9d1b43fc50ddb1ef": {
+      "_id": "63c1ec0c9d1b43fc50ddb1ef",
+      "name": "Help user",
+      "offsetX": 208.13184880233382,
+      "offsetY": 41.90596411338035,
+      "zoom": 80,
+      "variables": [],
+      "versionID": "63c1ec0c9d1b43fc50ddb1ed",
+      "creatorID": 51593,
+      "modified": 1673653260,
+      "type": "COMPONENT",
+      "nodes": {
+        "5f9f562f11b31520c2a2a6e1": {
+          "nodeID": "5f9f562f11b31520c2a2a6e1",
+          "type": "start",
+          "coords": [
+            439.83518899708275,
+            197.61754485827456
+          ],
+          "data": {
+            "name": "Start",
+            "color": "#43494E",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "5f9f562f11b31520c2a2a6e3",
+                  "id": "5fde75904a001a20aa671626",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          504.47190774708275,
+                          219.61754485827456
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          574.061301773932,
+                          219.61754485827456
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          574.061301773932,
+                          148.2456817626953
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          643.6506958007812,
+                          148.2456817626953
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          }
+        },
+        "5f9f562f11b31520c2a2a6e3": {
+          "nodeID": "5f9f562f11b31520c2a2a6e3",
+          "type": "block",
+          "coords": [
+            808.6506721313523,
+            121.24568139701532
+          ],
+          "data": {
+            "name": "Help Message",
+            "color": "standard",
+            "steps": [
+              "60b7e6f5d4b17f0ce7bddeb6",
+              "5f9f562f11b31520c2a2a6e4"
+            ]
+          }
+        },
+        "5f9f562f11b31520c2a2a6e4": {
+          "nodeID": "5f9f562f11b31520c2a2a6e4",
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "else": {
+              "type": "reprompt",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "Alexa",
+                  "content": "Do you want to continue?"
+                },
+                {
+                  "voice": "Alexa",
+                  "content": "Please say yes or no."
+                }
+              ]
+            },
+            "choices": [
+              {
+                "intent": "AMAZON.YesIntent",
+                "mappings": []
+              },
+              {
+                "intent": "AMAZON.NoIntent",
+                "mappings": []
+              }
+            ],
+            "reprompt": null,
+            "chips": null,
+            "buttons": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "5fde75904a001a20aa671628"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "5fde75904a001a20aa671629"
+                },
+                {
+                  "type": 2,
+                  "target": "5f9f562f11b31520c2a2a6e6",
+                  "id": "5fde75904a001a20aa67162a",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          973.6507263819777,
+                          339.2456505209935
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1051.8287345472486,
+                          339.2456505209935
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1051.8287345472486,
+                          439.4923656273935
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1130.0067427125193,
+                          439.4923656273935
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "5f9f562f11b31520c2a2a6e5": {
+          "nodeID": "5f9f562f11b31520c2a2a6e5",
+          "type": "exit",
+          "data": {
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          }
+        },
+        "5f9f562f11b31520c2a2a6e6": {
+          "nodeID": "5f9f562f11b31520c2a2a6e6",
+          "type": "block",
+          "coords": [
+            1295.0066750587603,
+            408.4923354011805
+          ],
+          "data": {
+            "name": "Exit",
+            "color": "red",
+            "steps": [
+              "60b7e708d4b17f0ce7bddebe",
+              "5f9f562f11b31520c2a2a6e5"
+            ]
+          }
+        },
+        "60b7e6f5d4b17f0ce7bddeb6": {
+          "nodeID": "60b7e6f5d4b17f0ce7bddeb6",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "You said help. Do you want to continue?"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "5f9f562f11b31520c2a2a6e4",
+                  "id": "60b7e6f5d4b17f0ce7bddeb9"
+                }
+              },
+              "dynamic": []
+            }
+          }
+        },
+        "60b7e708d4b17f0ce7bddebe": {
+          "nodeID": "60b7e708d4b17f0ce7bddebe",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Bye for now."
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "5f9f562f11b31520c2a2a6e5",
+                  "id": "60b7e708d4b17f0ce7bddec1"
+                }
+              },
+              "dynamic": []
+            }
+          }
+        }
+      },
+      "children": []
+    }
+  },
+  "variableStates": []
+}
